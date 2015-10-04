@@ -1,0 +1,34 @@
+{
+  "name": "typevalidator",
+  "version": "0.0.1",
+  "description": "Type Checker which Support Logic Computation and Self Definition.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel/register test/**/*.js"
+  },
+  "dependencies": {
+    "logicer": "*"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "babel": "*",
+    "chokidar": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LoveKino/typevalidator.git"
+  },
+  "keywords": [
+    "type",
+    "checker",
+    "validation",
+    "validate",
+    "check"
+  ],
+  "author": "ddchen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LoveKino/typevalidator/issues"
+  },
+  "homepage": "https://github.com/LoveKino/typevalidator#readme"
+}
