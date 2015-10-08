@@ -34,7 +34,7 @@ var typevalidator = Typevalidator();
 Expresssion is a logic expression which composed by "&", "|" and "~".
 
 ```
-typevalidator.validate("(~object && ~array) | number", value);
+typevalidator.validate("(~object & ~array) | number", value);
 ```
 
 - keywords in expression
